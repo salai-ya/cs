@@ -7,6 +7,6 @@ jobs:
       - uses: actions/checkout@master
       - run: echo sss
       - run: ls
-      - run: python /cs.py
+      - run: python ./cs.py
  
       
