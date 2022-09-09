@@ -4,6 +4,8 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
       - run: echo sss
+      - run: pychon -v
  
       
