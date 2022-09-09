@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - run: echo sss
-      - run: pychon -v
+      - run: python -v
  
       
