@@ -6,6 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - run: echo sss
-      - run: python -v
+      - run: ls
+      - run: python /cs.py
  
       
